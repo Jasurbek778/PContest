@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: telegram-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: "python bot.py"
+    envVars:
+      - key: TOKEN
+        value: "7665059273:AAHmcBiMvca1iOAQi4ci2yL9k_G8PjjHFvs"
